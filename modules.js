@@ -1,15 +1,15 @@
-// const names = require('./people');
+const names = require('./people');
 
 
-// //import multiple things from different files => extraction w/ destructuring { }
-// // const { people, ages } = require('./people');
+//import multiple things from different files => extraction w/ destructuring { }
+// const { people, ages } = require('./people');
 
 
-// console.log(names.people, names.ages);
+console.log(names.people, names.ages);
 
 
 
 
-// const os = require("os");
+const os = require("os");
 
-// console.log(os.platform(), os.homedir());
+console.log(os.platform(), os.homedir());
